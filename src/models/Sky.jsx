@@ -3,7 +3,7 @@ import skyScene from "../assets/sky.glb";
 const Sky = () => {
   const sky = useGLTF(skyScene);
   return (
-    <mesh>
+    <mesh scale={[3, 3, 3]} position={[-5, -5, -5]}>
       <primitive object={sky.scene} />
     </mesh>
   );
