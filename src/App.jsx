@@ -6,6 +6,9 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-3YK2M8YSK0");
 const App = () => {
   return (
     <main className="bg-slate-300/20">
