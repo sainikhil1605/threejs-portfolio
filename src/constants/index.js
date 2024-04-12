@@ -123,7 +123,16 @@ export const socialLinks = [
     link: "https://www.linkedin.com/in/YourLinkedInUsername",
   },
 ];
-
+export const openSource = [
+  {
+    iconUrl: applyEase,
+    theme: "btn-back-red",
+    name: "Miru Web App",
+    description:
+      "Miru | Time Tracking and Invoicing and Employee Benefits. Built using Ruby On Rails and ReactJS",
+    link: "https://github.com/sainikhil1605/miru-web",
+  },
+];
 export const chromeExtensions = [
   {
     iconUrl: applyEase,
@@ -168,17 +177,45 @@ export const webApps = [
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Kanban Board",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "A Kanban Board application built using React JS, Spring Boot and MySQL",
+    link: "https://github.com/sainikhil1605/kanban-board",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Netflix clone Nextjs-App",
+    description: "Netflix Clone Built using Next JS",
+    link: "https://github.com/sainikhil1605/netflix-clone-next-app",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Mind Map",
+    description: "Mind Map Applications built using React JS",
+    link: "https://github.com/sainikhil1605/mind-map",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Meals App Nextjs",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "A Meal app used for publish you meal recipes built using Next JS",
+    link: "https://github.com/sainikhil1605/meals-app-nextjs",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Chatting-Application",
+    description: "Real Time Chatting App using React,Socket Io and Express JS",
+    link: "https://github.com/sainikhil1605/Chatting-Application",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Amazon clone MERN Stack",
+    description: "Amazon Clone using Mern Stack",
+    link: "https://github.com/sainikhil1605/Amazon-Clone-Mern-Stack",
   },
 ];

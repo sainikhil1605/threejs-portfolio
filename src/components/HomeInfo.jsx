@@ -10,6 +10,8 @@ const HomeInfo = ({ currentStage }) => {
         <span className="font-semibold mx-2 text-white">Nikhil Reddy</span>
         👋
         <br />A Software Engineer
+        <br />
+        Scroll Right 👉 to know more
       </h1>
     );
 

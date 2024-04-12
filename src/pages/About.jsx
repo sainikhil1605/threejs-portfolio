@@ -6,6 +6,7 @@ import {
 import { skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
+import GitHubCalendar from "react-github-calendar";
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Croatia, specializing in technical
+          Software Engineer based in United States, specializing in technical
           education through hands-on learning and building applications.
         </p>
       </div>
@@ -42,6 +43,23 @@ const About = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div>
+          <div>
+            <h1 className="head-text mt-10">
+              Days{" "}
+              <span className="blue-gradient_text drop-shadow font-semibold">
+                I Code
+              </span>
+            </h1>
+          </div>
+
+          <GitHubCalendar
+            username="sainikhil1605"
+            blockSize={15}
+            blockMargin={5}
+            color="#ffffff"
+          />
         </div>
       </div>
     </section>
